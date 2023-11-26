@@ -1,0 +1,57 @@
+header {
+	background: no-repeat center center;
+	background-size: cover;
+	color: rgb(255, 251, 251);
+}
+
+body {
+	background-color: #E2B3A9;
+}
+
+.card {
+	background-color: #0e0d0d;
+	color: whitesmoke;
+	box-shadow: 0 4px 8px rgb(241, 239, 239);
+}
+.card:hover {
+	box-shadow: 0px 4px 8px #ff9698;
+	transform: scale(1.15); 
+   }
+.navbar-light, 
+.navbar-toggler:hover{
+	color: #f16e70;
+	border-color: #f16e70;
+}
+.navbar-light, 
+.navbar-toggler{
+	color: #353333;
+	border-color: #353333;
+	
+}
+.color-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 75vh;
+} 
+.singleCol {
+	max-width:  750px;
+
+}
+
+footer{
+    background-color: #000;
+	margin-top: 50px;
+}
+
+footer a{
+    color: #ff9698;
+} 
+
+footer a:hover{
+    color: #fc7577;
+} 
+
+@media (max-width: 767.98px){
+	.color-overlay {
+		min-height: 30vh;
+	}
+}
